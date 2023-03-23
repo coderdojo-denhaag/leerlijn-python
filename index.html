@@ -5,55 +5,58 @@
     <title>Leerlijn Python</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+
 </head>
 <body>
     <div class="container">
 
         <br/>
 
-        <div class="row">
-            <div class="col">
+        <div class="row d-flex align-items-center">
+            <div class="col-4">
                 <a href="https://www.coderdojo-denhaag.nl/">
                     <img src="https://www.coderdojo-denhaag.nl/wp-content/uploads/2015/07/logo_black_302x117-e1436361785124.png" alt="" class="mx-auto d-block" />
                 </a>
             </div>
-        </div>
-
-        <br/>
-
-        <div class="row">
-            <div class="col">
+            <div class="col-4">
                 <a href="https://www.python.org/" target="_blank">
                     <h5 class="text-center">Python.org</h5>
                     <img src="images/python-logo.png" alt="Python" class="mx-auto d-block" />
                 </a>
             </div>
-        </div>
-
-        <br/>
-
-        <div class="row">
-            <div class="col">
+            <div class="col-4">
                 <a href="https://projects.raspberrypi.org/nl-NL/projects?software%5B%5D=python" target="_blank">
                     <h5 class="text-center">Raspberry Pi Python projecten</h5>
                     <img src="images/logomark.svg" alt="Raspberry Pi Foundation" class="mx-auto d-block" />
                 </a>
             </div>
         </div>
+
+        <br/>
+        <hr>
         
         <div class="row">
             <div class="col-12"/>
                 <h3 id="basis">Python Installeren</h3>
-                <p>
-                    Ga naar <a target="_blank" href="https://www.python.org/">www.python.org</a> en klik op Downloads. 
-                    Klik op de knop voor het ophalen van de meest recente versie van Python.    
-                    <img style="max-width:300px;" src="images/download-python.png">
-                </p>
+                <div class="row d-flex align-items-start">
+                    <div class="col-6">
+                        Ga naar <a target="_blank" href="https://www.python.org/">www.python.org</a> en klik op Downloads. 
+                        Klik op de knop voor het ophalen van de meest recente versie van Python. <br>   
+                        <img style="max-width:300px;" src="images/download-python.png">
+                    </div>
+                    <div class="col-6">
+                        Dubbelklik op het bestand dat je net gedownload hebt en vink voor de installatie óók de optie
+                        aan om Python toe te voegen aan het PATH.<br>
+                        <img style="max-width:300px;" src="images/installatie-python.png">
+                    </div>
+                </div>
             </div>
         </div>
 
         <br/>
+        <hr>
         <br/>
 
         <div class="row">
@@ -81,18 +84,18 @@
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-4">
+        <div class="row d-flex  align-items-baseline">
+            <div class="col-3">
                 <a href="https://codecombat.com/play" target="_blank" class="btn btn-light">
-                    <img src="https://codecombat.com/images/pages/base/logo.png" alt="" class="img-fluid" />
+                    <img src="https://codecombat.com/images/pages/base/logo.png" alt="" class="img-fluid py-5" />
                     <h5 class="text-left">CodeCombat</h5>
-                    <p class="text-left">Leer Python via een spel.</p>
+                    <p class="text-left">Leer Python via een spel.</p>  
                     <br/>
-                    <br/>
+                    
                 </a>
             </div>
 
-            <div class="col-4">
+            <div class="col-3">
                 <a href="https://projects.raspberrypi.org/nl-NL/projects/turtle-race" target="_blank" class="btn btn-light">
                     <img src="images/turtle-race.png" alt="" class="img-fluid" />
                     <h5 class="text-left">Schildpad Race!</h5>
@@ -101,7 +104,7 @@
                     <br/>
                 </a>
             </div>
-            <div class="col-4">
+            <div class="col-3">
                 <a href="https://projects.raspberrypi.org/nl-NL/projects/about-me" target="_blank" class="btn btn-light">
                     <img src="images/about-me.png" alt="" class="img-fluid" />
                     <h5 class="text-left">Over mij</h5>
@@ -109,7 +112,7 @@
                     <br/>
                 </a>
             </div>
-            <div class="col-4">
+            <div class="col-3">
                 <a href="https://projects.raspberrypi.org/nl-NL/projects/secret-messages" target="_blank" class="btn btn-light">
                     <img src="images/secret-messages.png" alt="" class="img-fluid" />
                     <h5 class="text-left">Geheime berichten</h5>
@@ -202,14 +205,7 @@
                     <h5 class="text-left">RPG</h5>
                     <p class="text-left">Ontwerp en programmeer je eigen RPG doolhofspel.</p>
                 </a>
-            </div>
-            <div class="col-4">
-                <a href="https://projects.raspberrypi.org/nl-NL/projects/sense-hat-pong" target="_blank" class="btn btn-light">
-                    <img src="images/sense-hat-pong.png" alt="" class="img-fluid" />
-                    <h5 class="text-left">Sense HAT Pong</h5>
-                    <p class="text-left">Maak een Pong-spel voor &eacute;&eacute;n speler met je Raspberry Pi en Sense HAT</p>
-                </a>
-            </div>
+            </div>           
             <div class="col-4">
                 <a href="https://projects.raspberrypi.org/nl-NL/projects/robo-trumps" target="_blank" class="btn btn-light">
                     <img src="images/robo-trumps.png" alt="" class="img-fluid" />
@@ -236,22 +232,7 @@
                     <h5 class="text-left">Trots en Vooroordelen voor zombies</h5>
                     <p class="text-left">Maak een zombievriendelijke versie van de roman van Jane Austen om onze nieuwe lijkkleurig opperheren te kalmeren</p>
                 </a>
-            </div>
-            <div class="col-4">
-                <a href="https://projects.raspberrypi.org/nl-NL/projects/flappy-astronaut" target="_blank" class="btn btn-light">
-                    <img src="images/flappy-astronaut.png" alt="" class="img-fluid" />
-                    <h5 class="text-left">Flappy astronaut</h5>
-                    <p class="text-left">Maak een Flappy Bird-kloon met je Raspberry Pi en de Sense HAT</p>
-                    <br/>
-                </a>
-            </div>
-            <div class="col-4">
-                <a href="https://projects.raspberrypi.org/nl-NL/projects/naughty-and-nice" target="_blank" class="btn btn-light disabled">
-                    <img src="images/naughty-and-nice.png" alt="" class="img-fluid" />
-                    <h5 class="text-left">Stout en aardig</h5>
-                    <p class="text-left">Gebruik Python om een sentimentanalyseprogramma voor Twitter te maken</p>
-                </a>
-            </div>
+            </div>                       
         </div>
 
         <br/>
@@ -270,14 +251,7 @@
                     <p class="text-left">Zoek de exacte locatie van het ISS</p>
                     <br/>
                 </a>
-            </div>
-            <div class="col-4">
-                <a href="https://projects.raspberrypi.org/nl-NL/projects/slug" target="_blank" class="btn btn-light">
-                    <img src="images/slug.png" alt="" class="img-fluid" />
-                    <h5 class="text-left">NAAKTSLAK!</h5>
-                    <p class="text-left">Speel het klassieke spel Snake op je Sense HAT</p>
-                </a>
-            </div>
+            </div>            
             <div class="col-4">
                 <a href="https://projects.raspberrypi.org/nl-NL/projects/deck-of-cards" target="_blank" class="btn btn-light">
                     <img src="images/deck-of-cards.png" alt="" class="img-fluid" />
